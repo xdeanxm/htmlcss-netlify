@@ -59,6 +59,9 @@ img {
 .text-hint {
   color: var(--hint);
 }
+.text-dark {
+  color: var(--dark);
+}
 
 @keyframes bounce {
   0% {
@@ -228,7 +231,7 @@ main {
 }
 @media (max-width: 480px) {
   main {
-    padding: 5rem 1.5rem;
+    padding: 2rem 1.5rem;
   }
 }
 main h2 {
@@ -264,6 +267,11 @@ main .experience .content ul {
   list-style: circle;
   padding-left: 4rem;
   margin: 2rem 0;
+}
+@media (max-width: 480px) {
+  main .experience .content ul {
+    margin: 2rem 1.5rem 1rem 1.5rem;
+  }
 }
 
 footer {
